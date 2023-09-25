@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+
+  }
+
+
+  h2{
+      text-decoration: underline;
+      text-align: left;
+    
+  }
+
+  h1{
+      text-align: center;
+  }
+
+  blockquote{
+      font-style: italic;
+  }
+
