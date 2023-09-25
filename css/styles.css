@@ -15,7 +15,7 @@ body {
       text-align: center;
   }
 
-  blockquote{
+  section> ul>li{
       font-style: italic;
   }
 
