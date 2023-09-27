@@ -72,15 +72,31 @@
 </main>
 
 <h1>Registration Form</h1>
-<form>
-  <label for="name">Name:</label>
+<form action="http://localhost:3000/api/users/login" method="POST">
+    <br /><br />
+    <label for="name">Name:</label>
   <input id="name" name="name" type="text" />
+  <br /><br />
 
   <label for="email">Email Address:</label>
   <input id="email" name="email" type="email" />
+  <br /><br />
 
-  <label for="lastName">Last Name:</label>
-  <input id="lastName" name="lastName" type="text" />
+  <label for="date-of-birth">Date of Birth:</label>
+  <input id="date-of-birth" name="date-of-birth" type="date" />
+  <br /><br />
+
+  <label for="favorite-color">Favorite Color:</label>
+  <input id="favorite-color" name="favorite-color" type="color" />
+  <br /><br />
+
+  <label for="lucky-number">Lucky Number:</label>
+  <input id="lucky-number" name="lucky-number" type="number" />
+  <br /> <br />
+
+  <label for="confirmation">Confirmation Date is correct:</label>
+  <input id="confirmation" name="confirmation" type="checkbox" />
+  <br /> <br />
 </form>
 
 </body>

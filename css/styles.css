@@ -15,7 +15,11 @@ body {
       text-align: center;
   }
 
-  section> ul>li{
+  #quotes-section> ul>li{
       font-style: italic;
   }
 
+form{
+    background-color: azure;
+    
+}
